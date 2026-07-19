@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eyasin Akbor Akash | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="script" href="script.js">
+</head>
+
+<body>
+
+<header>
+<img src="profile.jpg" alt="Eyasin Akbor Akash" class="profile">
+
+<h1>Eyasin Akbor Akash</h1>
+
+<p>Model | Content Creator</p>
+
+<a href="#about" class="btn">About Me</a>
+
+</header>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Hello! I'm Eyasin Akbor Akash from Mirpur, Dhaka, Bangladesh.
+I'm a passionate Model & Content Creator who loves creating creative content and working with brands.
+</p>
+
+</section>
+
+<section>
+
+<h2>Personal Information</h2>
+
+<ul>
+
+<li>🎂 Date of Birth : 08 March 2003</li>
+
+<li>📏 Height : 5'7"</li>
+
+<li>⚖️ Weight : 70 KG</li>
+
+<li>📍 Location : Mirpur, Dhaka</li>
+
+<li>💼 Profession : Model & Content Creator</li>
+
+<li>📧 Email : eyasinakash46@gmail.com</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Follow Me</h2>
+
+<div class="social">
+
+<a href="https://www.facebook.com/share/1CnvZWobbA/" target="_blank">Facebook</a>
+
+<a href="https://www.instagram.com/eyasin_akbor_akash" target="_blank">Instagram</a>
+
+<a href="https://youtube.com/@eyasinakborakash8903" target="_blank">YouTube</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Eyasin Akbor Akash | All Rights Reserved</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
