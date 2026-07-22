@@ -1,1 +1,25 @@
 body{font-family:Arial;background:#f4f4f4;margin:0}header{background:#007bff;color:#fff;padding:40px;text-align:center}section{max-width:800px;margin:20px auto;background:#fff;padding:20px;border-radius:8px}
+header{
+    background: linear-gradient(135deg,#007bff,#00c6ff);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+    margin:20px auto;
+    border:5px solid #fff;
+}
+
+section{
+    max-width:900px;
+    margin:30px auto;
+    padding:20px;
+    background:#fff;
+    border-radius:12px;
+}
