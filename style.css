@@ -307,3 +307,43 @@ h2{
 }
 
 }
+/* Premium Glow Effect */
+
+.hero h1{
+    text-shadow:0 0 20px rgba(212,175,55,.7);
+}
+
+.profile:hover{
+    transform:scale(1.08) rotate(2deg);
+    transition:.5s;
+}
+
+.card{
+    backdrop-filter:blur(10px);
+}
+
+.gallery img:hover{
+    filter:brightness(110%);
+}
+
+body{
+    background-image:radial-gradient(circle at top,#222 0%,#0b0b0b 60%);
+}
+
+.hero{
+    background:
+    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
+    url("profile.jpg") center/cover no-repeat;
+}
+
+.btn{
+    box-shadow:0 0 20px rgba(212,175,55,.4);
+}
+
+.btn:hover{
+    box-shadow:0 0 35px rgba(212,175,55,.8);
+}
+
+footer{
+    box-shadow:0 -5px 30px rgba(212,175,55,.15);
+}
