@@ -347,3 +347,63 @@ body{
 footer{
     box-shadow:0 -5px 30px rgba(212,175,55,.15);
 }
+/* ===== Premium Luxury Upgrade ===== */
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)), url("profile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero h1{
+    font-size:60px;
+    letter-spacing:2px;
+    text-shadow:0 0 25px rgba(212,175,55,.9);
+}
+
+.hero h3{
+    font-size:28px;
+}
+
+.profile{
+    transition:.5s;
+}
+
+.profile:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 50px rgba(212,175,55,.9);
+}
+
+.card{
+    backdrop-filter:blur(15px);
+}
+
+.card:hover{
+    transform:translateY(-15px);
+}
+
+.gallery img{
+    cursor:pointer;
+}
+
+.gallery img:hover{
+    transform:scale(1.08);
+    filter:brightness(110%);
+}
+
+.social a{
+    font-size:18px;
+}
+
+.social a:hover{
+    transform:translateY(-6px) scale(1.05);
+}
+
+footer{
+    background:#000;
+}
+
+footer h3{
+    color:#d4af37;
+}
