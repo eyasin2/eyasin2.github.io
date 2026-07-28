@@ -55,3 +55,27 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 console.log("Premium Portfolio Loaded Successfully");
+// Premium Effects
+
+window.addEventListener("scroll", () => {
+    document.querySelectorAll("section").forEach(section => {
+        const position = section.getBoundingClientRect().top;
+        const screen = window.innerHeight;
+
+        if (position < screen - 100) {
+            section.style.opacity = "1";
+            section.style.transform = "translateY(0)";
+        }
+    });
+});
+
+document.querySelectorAll(".gallery img").forEach(img => {
+    img.addEventListener("click", () => {
+        img.style.transform = "scale(1.15)";
+        setTimeout(() => {
+            img.style.transform = "scale(1)";
+        }, 300);
+    });
+});
+
+console.log("Luxury Portfolio Activated");
