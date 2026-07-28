@@ -1,4 +1,4 @@
-
+try
 *{
   margin:0;
   padding:0;
@@ -197,4 +197,113 @@ h2{
 .social a:hover{
     background:#fff;
     transform:translateY(-5px);
+}
+.contact-box{
+    background:#161616;
+    border:1px solid rgba(212,175,55,.3);
+    border-radius:20px;
+    padding:30px;
+    max-width:700px;
+    margin:30px auto;
+    text-align:center;
+}
+
+.contact-box p{
+    color:#ddd;
+    margin:10px 0;
+    font-size:18px;
+}
+
+footer{
+    background:#050505;
+    text-align:center;
+    padding:40px 20px;
+    border-top:2px solid #d4af37;
+}
+
+footer h3{
+    color:#d4af37;
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+footer p{
+    color:#bbb;
+    margin:8px 0;
+}
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#d4af37;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#f4d03f;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+.hero-content,
+.card,
+.gallery img,
+.contact-box{
+    animation:fadeUp .8s ease;
+}
+
+@media (max-width:768px){
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero h3{
+    font-size:20px;
+}
+
+.profile{
+    width:160px;
+    height:160px;
+}
+
+h2{
+    font-size:30px;
+}
+
+.btn{
+    display:block;
+    margin:12px auto;
+    width:220px;
+}
+
+.social{
+    flex-direction:column;
+    align-items:center;
+}
+
+.social a{
+    width:220px;
+    text-align:center;
+}
+
+.gallery img{
+    height:250px;
+}
+
 }
